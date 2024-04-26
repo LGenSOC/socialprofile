@@ -12,9 +12,9 @@
    
   .profile-container {
             background-color: rgb(29, 29, 29); /* Dark grey container */
-            width: 346px;
-            height: 544px;
-            border-radius: 10px;
+            width: 500px;
+            height: fit-content;
+            border-radius: 5px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
             text-align: center;
             padding: 20px;
@@ -33,18 +33,19 @@
         }
         .profile-button {
             display: block;
-            width: 280px; /* Adjust width of buttons */
-            height: 60px
+            width: 90%; /* Adjust width of buttons */
+            height: 60px;
             padding: 10px;
             margin: 10px auto;
-            background-color: #666; /* Light grey buttons */
-            color: white;
+            background-color: #313030; /* Light grey buttons */
+            color: rgb(222, 220, 220);
             border: none;
-            border-radius: 40px; /* Rounded corners for buttons */
+            border-radius: 10px; /* Rounded corners for buttons */
             cursor: pointer;
-            font-size: 16px;
+            font-size: 17px;
             font-weight: bold;
         }
+
         .profile-button:hover {
             background-color: #bbb; /* Slightly darker on hover */
         }
@@ -58,25 +59,27 @@
   src: url('assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
 }
 
-    .p1{
+.p1{
   font-weight: bold;
-  color: white;
+  color: rgb(222, 220, 220);
   font-size: 28px;
   font-family: 'Inter', sans-serif; /* Apply the Inter Regular font to paragraphs */
 }
-}
-    .p2{
+
+.p2{
   font-weight: bold;
-  font-size: 20px;
-  color: yellow
-}
-}
-    .p3{
- 
   font-size: 18px;
+  color: rgb(196, 196, 6);
+  font-family: 'Inter', sans-serif; /* Apply the Inter Regular font to paragraphs */
+}
+
+.p3{
+ 
+  font-size: 17px;
   color: rgb(180, 178, 178);
+  font-family: 'Inter', sans-serif; /* Apply the Inter Regular font to paragraphs */
 }
-}
+
 
 
          /* .body {
