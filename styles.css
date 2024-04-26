@@ -52,46 +52,31 @@
             margin-top: 10px;
         }
 
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+}
+
     .p1{
   font-weight: bold;
   color: white;
   font-size: 28px;
+  font-family: 'Inter', sans-serif; /* Apply the Inter Regular font to paragraphs */
+}
 }
     .p2{
   font-weight: bold;
-  color: rgb(184, 200, 11);
   font-size: 20px;
+  color: yellow
+}
 }
     .p3{
  
-  color: rgb(180, 178, 178);
   font-size: 18px;
+  color: rgb(180, 178, 178);
 }
-
-
-.attribution {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 11px;
-  text-align: center;
-  flex-direction: column; /* Change flex-direction to column to stack attribution below profile container */
-  font-size: 11px; 
-  text-align: center; 
-    }
-
-    .attribution a {
-         color: hsl(228, 45%, 44%); 
-        }
-
-
-        @font-face {
-  font-family: 'CustomFont';
-  src: url('fonts/CustomFont-Regular.ttf') format('truetype');
 }
-
-
-
 
 
          /* .body {
